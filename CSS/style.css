@@ -12,6 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100px;
+    position: fixed;
+    width: 100%;
 }
 .logo{
     flex:20%;
@@ -55,6 +57,7 @@ body{
     height: auto;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 .headline{
     flex: 40%;
@@ -162,4 +165,12 @@ footer{
 }
 b{
     color: white;
+}
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.whats img{
+    width: 100px;
 }
