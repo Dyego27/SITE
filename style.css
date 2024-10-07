@@ -15,7 +15,7 @@ body{
 }
 .logo{
     flex:20%;
-    text-align: center;
+    text-align: left;
     font-family: "Lobster",cursive;
     color: #180F4A;
     font-size: 32px;
@@ -35,6 +35,7 @@ body{
 .menu a:hover{
     color: #ff2978;
     border-top: 4px solid #180F4A;
+    transition: all 0.8s;
 }
 #btt{
     background-color: #180F4A;
@@ -47,4 +48,51 @@ body{
 #btt:hover{
     border: none;
     background: #ff2978;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0px;
+    margin: 0px;
+}
+.headline p{
+    color: gray;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.contact-btn{
+    background-color: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background-color: #180F4A;
+    transition: all 0.8s;
+}
+#h2{
+    font-size: 70px;
+}
+#h22{
+    letter-spacing: 15px;
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    max-width: 80%;
+    text-align: center;
 }
